@@ -1,0 +1,94 @@
+body{
+	background-color: #162F65;
+}
+
+h1{
+	font-size: 50px;
+	animation: fla 5s ease;
+	animation-delay: 5s;
+	opacity: 0%;
+	color: white;
+}
+
+@keyframes fla{
+	from {opacity: 0%;}
+	to {opacity: 100%}
+}
+
+.main{
+	text-align: center;
+	margin-top: 200px;
+}
+
+a{
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	border-radius: 5px;
+	transition: 1s ease;
+}
+
+a:hover {
+	font-size: 35px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 20px;
+	transition: 1s ease;
+}
+
+.ekk{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+img{
+	position: absolute;
+	left: 475px;
+	top: 170px;
+	opacity: 0%;
+	height: 300px;
+	width: auto;
+	animation: round 3s ease;
+}
+@keyframes round{
+		from{transform: rotate(0deg); opacity: 100%;}
+		to{transform: rotate(360deg); opacity: 0%;}
+
+}
+
+.cre{
+	font-size: 50px;
+	margin: 0px;
+	color: #fbb625;
+	position: absolute;
+	left: 530px;
+	top: 280px;
+	opacity: 0%;
+	animation: cre 5s ease;
+}
+@keyframes cre{
+	0%{left: 530px; opacity: 0%}
+	25%{left: 700px; opacity: 100%}
+	50%{left: 530px; opacity: 100%}
+	75%{opacity: 100%;}
+	100%{opacity: 0%;}
+}
+.fix{
+	font-size: 50px;
+	margin: 0px;
+	color: #5c7086;
+	position: absolute;
+	left: 665px;
+	top: 280px;
+	opacity: 0%;
+	animation: fix 5s ease;
+}
+@keyframes fix{
+	0%{left: 665px; opacity: 0%;}
+	25%{left: 830px; opacity: 100%}
+	50%{left: 665px; opacity: 100%}
+	75%{opacity: 100%;}
+	100%{opacity: 0%;}
+}

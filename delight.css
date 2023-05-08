@@ -1,0 +1,86 @@
+.menu{
+position: absolute;
+top: 120px;
+left: -20px;
+font-size: 25px;
+font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+color: pink;
+}
+.sidebar{
+    height: 700px;
+    width: 200px;
+    background-color: black;
+}
+.list{
+    list-style-type: none;
+}
+body{
+    margin: 0px;
+    background-image: linear-gradient(pink, rgb(218, 117, 134));
+}
+.header{
+    color: pink;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+.main{
+    position: absolute;
+    top: 30px;
+    left: 40%;
+}
+.title{
+    font-size: 50px;
+}
+p{
+    text-align: center;
+}
+.laman{
+    position: absolute;
+    top: 200px;
+    left: 25%;
+}
+.img1{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 10px;
+}
+.img2{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 10px;
+}
+.img3{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 10px;
+}
+.contain{
+    font-size: 35px;
+}
+button{
+    font-family: 'Delicious Handrawn', cursive;
+    position: relative;
+    top: -10px;
+    left: 30px;
+    border-radius: 10px;
+    border-color: rgb(255, 233, 237);
+    background-color: black;
+    color: pink;
+}

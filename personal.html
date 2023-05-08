@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+	<head>
+		<title>(Service) Creafix.com</title>
+		<link rel="icon" href="image/CREAFIX.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" href="info.css" >
+
+		<style>
+			.click{
+					font-size:30px; 
+					background-color:black; 
+					color:yellow;
+					margin-right:10px;
+					border-radius:6px;
+					transition: 1s ease;
+			}
+			.dark-mode .click {
+				background-color:white;
+				color:black;
+				transition: 1s ease;
+				}
+
+							/* width */
+			::-webkit-scrollbar {
+ 			 width: 11px;
+			}
+
+			/* Track */
+			::-webkit-scrollbar-track {
+ 			box-shadow: inset 0 0 5px grey; 
+  			border-radius: 10px;
+			}
+ 
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+ 			 background: blue;
+  			border-radius: 10px;
+			}
+
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+ 			background: #151B54;
+			}
+
+			h5{
+				margin-left: 10px;
+				color: cyan;
+				font-family:  'Rajdhani', sans-serif;;
+			}
+
+			.material-symbols-outlined {
+			font-variation-settings:
+			'FILL' 0,
+			'wght' 400,
+			'GRAD' 0,
+			'opsz' 48
+			}
+
+            
+		</style>
+	</head>
+
+	<body>
+		<div class="taas">
+		
+		<h1>SERVICES</h1>
+		<!--<ul class="nav">
+			<li><a class="side" href="sample123.html"><span class="material-symbols-outlined">home</span>HOME</li>
+			<li><a class="side" style="padding-right: 30px; "href="menu.html"><span class="material-symbols-outlined">
+				group</span>ABOUT</a></li>
+			<li class="click"><span class="material-symbols-outlined">
+				gallery_thumbnail</span>GALLERY</a></li>
+			<li><a class="side" style="padding-right: 5px; "href="personal.html"target="_self"><span class="material-symbols-outlined">
+				settings</span>SERVICE</a></li>
+		</ul>-->
+		</div>
+
+		<div class="sidebar">
+		<button  class="but" onclick="darkMode()"><span class="material-symbols-outlined">dark_mode</span></button>
+	<!---------SCRIPTS--------->
+	<script type="text/javascript">
+	  function darkMode(){
+	    const body = document.querySelector("body");
+	    body.classList.toggle("dark-mode");
+	  }
+	</script>
+		<ul style="padding-left: 10px; margin-right: 20px; margin-bottom: 500%;">
+			
+				<li><a class="side" style="padding-right: 30px;
+				"href="index.html"target="_self"><span class="material-symbols-outlined">home</span>HOME</a></li>
+				<li><a class="side" style="padding-right: 30px;
+				"href="menu.html"target="_self"><span class="material-symbols-outlined">group</span>ABOUT</a></li>
+				<li><a class="side" style="padding-right: 5px;
+				"href="table.html"><span class="material-symbols-outlined">gallery_thumbnail</span>GALLERY</a></li>
+				<li class="click"><span class="material-symbols-outlined">
+					settings</span>SERVICE</li>
+		<hr style="width:110%;text-align:left;margin-left:0;">	
+		</ul>
+		</div>
+
+   			 
+		<div class="main">
+			<h1>CREAFIX Services</h1>
+			<p>HI! This is Creafix services. Submit your thoughts and design whatever you want in here!!</p>
+			
+  				<label>What type of website do you want?</label>
+  				<input type="text" id="text1"><br><br>
+
+ 				<label>What design and layout of website do you want?</label>
+  				<input type="text" id="text2"><br><br>
+
+				<label>What features must your website include?</label>
+  				<input type="text" id="text3"><br><br>
+
+					<label for="color">Color1:</label>
+  					<select name="color" id="color1">
+    					<option value="None">None</option>
+    					<option value="White">White</option>
+    					<option value="Blue">Blue</option>
+    					<option value="Red">Red</option>
+					<option value="Green">Green</option>
+					<option value="Yellow">Yellow</option>
+					<option value="Black">Black</option>
+					<option value="Violet">Violet</option>
+					<option value="Orange">Orange</option>
+					</select><br><br>
+					
+					<label for="color">Color2:</label>
+  					<select name="color" id="color2">
+    					<option value="None">None</option>
+    					<option value="White">White</option>
+    					<option value="Blue">Blue</option>
+    					<option value="Red">Red</option>
+					<option value="Green">Green</option>
+					<option value="Yellow">Yellow</option>
+					<option value="Black">Black</option>
+					<option value="Violet">Violet</option>
+					<option value="Orange">Orange</option>
+					</select><br><br>
+				<label>Dark mode?</label>
+				<select name="color" id="color3">
+    					<option value="Yes">Yes</option>
+					<option value="No">No</option>
+				</select><br><br>
+
+				<label>Your Contact Number:</label>
+				<input type="number" id="text4"><br><br>
+
+				<label>Your Custom Domain name:</label>
+				<input type="text" id="text5"><br><br>
+
+				 <label for="pay">Payment Method:</label>
+  				<select name="pay" id="pay">
+				<option value="None">None</option>
+    				<option value="Gcash">Gcash</option>
+    				<option value="Paymaya">Paymaya</option>
+				<option value="Paypal">Paypal</option>
+    				<option value="Debit cards">Debit cards</option>
+    				<option value="Credit cards">Credit cards</option>
+					<option value="ATM card">ATM card</option>
+  				</select>
+				<p>Creafix will provide a free host after your website is created.</p>
+				<input type="submit"  onclick="submit()" id="submit" value="Submit">
+		
+			</div>
+
+			<div class="mhay">
+			<table>
+				<tr>
+					<td>
+						<label for="text">TYPE:</label>
+					</td>
+					<td>
+						<h5 id="output1"></h5>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="text">DESIGN AND LAYOUT:</label>
+					</td>
+					<td>
+						<h5 id="output2"></h5>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="text">FEATURES:</label>
+					</td>
+					<td>
+						<h5 id="output3"></h5>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="text">COLOR1:</label>
+					</td>
+					<td>
+						<h5 id="output7"></h5>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="text">COLOR2:</label>
+					</td>
+					<td>
+						<h5 id="output8"></h5>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="text">DARKMODE:</label>
+					</td>
+					<td>
+						<h5 id="output9"></h5>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="text">CONTACT NUMBER:</label>
+					</td>
+					<td>
+						<h5 id="output4"></h5>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="text">DOMAIN NAME:</label>
+					</td>
+					<td>
+						<h5 id="output5"></h5>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="text">PAYMENT METHOD:</label>
+					</td>
+					<td>
+						<h5 id="output6"></h5>
+					</td>
+				</tr>
+				<tr>
+					<td><button class="btnc" id="confirm"><a style="text-decoration: none;"href="submit.html">CONFIRM</a></button></td>
+				</tr>
+			</table>
+		</div>
+
+		
+		
+	</body>
+	<script type="text/javascript">
+		var txt1=document.getElementById('text1');
+		var txt2=document.getElementById('text2');
+		var txt3=document.getElementById('text3');
+		var txt4=document.getElementById('text4');
+		var txt5=document.getElementById('text5');
+		var txt6=document.getElementById('pay');
+
+		var col1=document.getElementById('color1');
+		var col2=document.getElementById('color2');
+		var col3=document.getElementById('color3');
+
+		var out1=document.getElementById('output1');
+		var out2=document.getElementById('output2');
+		var out3=document.getElementById('output3');
+		var out4=document.getElementById('output4');
+		var out5=document.getElementById('output5');
+		var out6=document.getElementById('output6');
+		var cout7=document.getElementById('output7');
+		var cout8=document.getElementById('output8');
+		var cout9=document.getElementById('output9');
+
+		function submit(){
+			out1.innerHTML=txt1.value;
+			out2.innerHTML=txt2.value;
+			out3.innerHTML=txt3.value;
+			out4.innerHTML=txt4.value;
+			out5.innerHTML=txt5.value;
+			out6.innerHTML=txt6.value;
+			cout7.innerHTML=col1.value;
+			cout8.innerHTML=col2.value;
+			cout9.innerHTML=col3.value;
+		}
+
+		
+	</script>
+
+
+</html>

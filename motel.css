@@ -1,0 +1,99 @@
+.top{
+    height: 60px;
+    width: 100%;
+    background-color: #9df7f6;
+    position: absolute;
+    top: 0px;
+
+}
+.header{
+    position: absolute;
+    top: -40px;
+    left: 90px;
+    font-family: 'Alkatra', cursive;
+    font-size: 50px;
+
+}
+.menu{
+    position: absolute;
+    top: -15px;
+    left: 60%;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    word-spacing: 15px;
+}
+.list{
+    display: inline;
+    list-style-type: none;
+}
+body{
+    margin: 0px;
+    background-color: black;
+}
+.con{
+    height: 60px;
+    width: 70px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+.background{
+    position: fixed;
+    top: 60px;
+    height: 860px;
+    width: auto;
+    z-index: -1;
+    opacity: 50%;
+    animation: move 30s ease infinite;
+}
+@keyframes move{
+    0%{height: 860px;}
+    50%{height: 950px;}
+    100%{height: 860px;}
+}
+.mainer{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    z-index: 1;
+    color: aliceblue;
+}
+.desc{
+    font-family: arial;
+    font-weight: 400;
+    font-size: 50px;
+    position: absolute;
+    top: 190px;
+    left: 250px;
+    right: 0px;
+    color: aliceblue;
+}
+.desc1{
+    font-family: Arial;
+    position: absolute;
+    top: 270px;
+    left: 250px;
+    right: 0px;
+    color: aliceblue;
+}
+.divdesc2{
+    font-family: arial;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    color: aliceblue;
+}
+.desc2{
+    font-family: arial;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+button{
+    opacity: 100%;
+    height: 50px;
+    width: 95px;
+    border-radius: solid 1px;
+    font-family: arial;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}

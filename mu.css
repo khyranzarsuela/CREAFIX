@@ -1,0 +1,355 @@
+body{
+	color: white;
+	background-color: #162F65;
+	transition: 1s ease;
+}
+
+.try{
+	text-decoration:none;
+	color:black;
+	font-size:30px;
+	transition:1s;
+}
+
+.try:hover{
+	color: blue;
+	border-radius: 6px;
+	transition:0.5s;
+}
+h1
+{
+	font-family:Cascadia Code;
+	font-size:30px;
+	margin:20px;
+}
+li
+{
+	list-style-type:none;
+	font-family: 'Rajdhani', sans-serif;
+	display: inline;
+}
+
+.nav{
+	position: absolute;
+	top: 0px;
+	left: 180px;
+	word-spacing: 20px;
+}
+
+.sidebar{
+	position:fixed;
+	margin-top:66px;
+	margin-left:-10px;
+	border: solid white 1px;
+	animation-name:baba;
+	animation-duration:0.7s;
+}
+
+@keyframes baba{
+	from {left: -150px;}
+	to {left: 8px;}
+}	
+
+.main{
+	margin-left:30px;
+	margin-top:10px;
+	animation-name:lahat;
+	animation-duration:0.7s;
+}
+
+@keyframes lahat{
+	from {opacity:0%;}
+	to {opacity:100%;}
+}
+
+/*original*/
+from {margin-top: -100px; opacity:0%;}
+	to {margin-top: 10px;}
+
+p
+{
+	font-size:20px;
+	font-family: 'Rajdhani', sans-serif;
+	text-indent: 20px;
+	animation: slides 2s ease;
+}
+@keyframes slides{
+	from{opacity: 0%;};
+	to{opacity: 100%;};
+}
+
+.taas{
+	position:fixed;
+	width:110%;
+	background-color: white;
+	border-bottom: solid 1px;
+	border-color: white;
+	margin-top:-10px;
+	margin-left:-10px;
+	animation-name:up;
+	animation-duration:0.7s;
+	transition: 1s ease;	
+}
+
+@keyframes up{
+	from {margin-top: -100px;}
+	to {margin-top: -10px;}
+}
+
+img{
+	margin-top:100px;
+}
+
+.gitna{
+	margin-top:100px;
+	margin-left: 40%;
+	height: 200px;
+	width: 200px;
+	border: outset;
+	transition: .8s ease;
+}
+
+.gitna:hover {
+	margin-top:100px;
+	height: 250px;
+	width: 250px;
+	border: outset;
+	border-right-color: blue;
+	border-bottom-color: blue;
+	box-shadow: 0px 0px 100px #57FEFF;
+	transition: .8s ease;
+}
+
+.intro{
+	height: 210px;
+	width: 210px;
+	border: outset;
+	transition: .5s ease;
+}
+
+.intro:hover {
+	margin-left: 5%;
+	margin-top:100px;
+	height: 250px;
+	width: 250px;
+	border: outset;
+	border-right-color: blue;
+	border-bottom-color: blue;
+	box-shadow: 0px 0px 100px #57FEFF;
+	transition: .5s ease;
+}
+
+.dark-mode{
+	      color: white;
+	      background-color: black;
+		transition: 1s ease;
+	    }
+
+.dark-mode .taas {
+	      color: white;
+	      background-color: black;
+		transition: 1s ease;
+	    }
+
+.dark-mode .try {
+	      color: white;
+	      background-color: black;
+		transition: 1s ease;
+	    }
+
+.dark-mode .try:hover {
+	      color: black;
+	      background-color: white;
+		transition: 1s ease;
+	    }
+
+.dark-mode .clasa {
+	      color: white;
+	      background-color: black;
+		transition: 1s ease;
+	    }
+button {
+	position: absolute;
+	top: 20px;
+	left: 150px;
+	border-radius: 5px;
+	background-color: white;
+	margin-left: 5px;
+	transition: 0.6s;
+}
+		
+button:hover {
+	border-radius: 30px;
+	background-color: black;
+	margin-left: 20px;
+	color: white;
+	transition: 0.6s;
+}
+
+b{
+	font-size: 20px;
+	transition: 0.5s ease;
+}
+
+b:hover{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 22px;
+	transition: 0.5s ease;
+}
+
+.flex{
+	font-size: 30px;
+	transition: .8s ease;
+	animation: slide 0.8s ease;
+}
+@keyframes slide{
+	from{margin: 0px; opacity: 0%;};
+	to{margin: 20px; opacity: 100%;};
+}
+
+.flex:hover {
+	margin-left: 50px;
+	margin-right: 620px;
+	font-size: 35px;
+	transition: .8s ease;
+	
+}
+
+.clasa{
+	text-align: justify;
+	font-family: 'Rajdhani', sans-serif;
+	margin-left: 10px;
+	margin-top: 100px;
+}
+
+.test{
+	height: 210px;
+	width: 210px;
+	border: outset;
+	transition: .5s ease;
+}
+.test:hover {
+	margin-left: 5%;
+	margin-top:100px;
+	height: 250px;
+	width: 250px;
+	border: outset;
+	border-right-color: blue;
+	border-bottom-color: blue;
+	box-shadow: 0px 0px 100px #9205f8;
+	transition: .5s ease;
+}
+
+.aba{
+	height: 210px;
+	width: 210px;
+	border: outset;
+	transition: .5s ease;
+}
+.aba:hover {
+	margin-left: 5%;
+	margin-top:100px;
+	height: 250px;
+	width: 250px;
+	border: outset;
+	border-right-color: blue;
+	border-bottom-color: blue;
+	box-shadow: 0px 0px 100px #f80562;
+	transition: .5s ease;
+}
+.c{
+	font-family:Cascadia Code;
+	font-size:30px;
+	margin-left: 10px;
+	margin-top: 20px;
+	animation: load 3s infinite;
+	
+}
+@keyframes load{
+	0%{color: white;}
+	50%{color: #fbb625}
+	100%{color: white;}
+}
+.r{
+	font-family:Cascadia Code;
+	font-size:30px;
+	margin-left: 27px;
+	margin-top: -55.5px;
+	animation: load2 3s infinite;
+	animation-delay: 2s;
+}
+@keyframes load2{
+	0%{color: white;}
+	50%{color: #fbb625}
+	100%{color: white;}
+}
+.e{
+	font-family:Cascadia Code;
+	font-size:30px;
+	margin-left: 44px;
+	margin-top: -55.5px;
+	animation: load3 3s infinite;
+	animation-delay: 3s;
+}
+@keyframes load3{
+	0%{color: white;}
+	50%{color: #fbb625}
+	100%{color: white;}
+}
+.a{
+	font-family:Cascadia Code;
+	font-size:30px;
+	margin-left: 62px;
+	margin-top: -55.5px;
+	animation: load4 3s infinite;
+	animation-delay: 4s;
+}
+@keyframes load4{
+	0%{color: white;}
+	50%{color: #fbb625}
+	100%{color: white;}
+}
+
+.f{
+	font-family:Cascadia Code;
+	font-size:30px;
+	margin-left: 78px;
+	margin-top: -55.5px;
+	animation: fixer 3s infinite;
+	animation-delay: 5s;
+}
+@keyframes fixer {
+	0%{color: white;}
+	50%{color: #5c7086;}
+	100%{color: white;}
+}
+.i{
+	font-family:Cascadia Code;
+	font-size:30px;
+	margin-left: 94px;
+	margin-top: -54.9px;
+	animation: fixer2 3s infinite;
+	animation-delay: 6s;
+}
+@keyframes fixer2 {
+	0%{color: white;}
+	50%{color: #5c7086;}
+	100%{color: white;}
+}
+.x{
+	font-family:Cascadia Code;
+	font-size:30px;
+	margin-left: 110px;
+	margin-top: -55.5px;
+	animation: fixer3 3s infinite;
+	animation-delay: 7s;
+}
+@keyframes fixer3 {
+	0%{color: white;}
+	50%{color: #5c7086;}
+	100%{color: white;}
+}
+
+
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>integ</title>
+    <style>
+      h1{
+        font-size: 20px;
+        margin-left: 50px;
+      }
+      h2{
+        font-size: 20px;
+        margin-left: 50px;
+      }
+      div{
+        margin-left: 50px;
+      }
+      img{
+        height: 100px;
+        width: auto;
+        margin-left: 50px;
+      }
+      h3{
+        margin: 0px;
+      }
+    </style>
+</head>
+<body><!--
+  <h1>COMPUTER PROGRAMMING LESSON 1 (CSS)</h1>
+  <h2>FONT SIZE, FONT FAMILY </h2>
+    <h1>The font-size property in CSS is used to specify the height and size of the font. <br> affects the size of the text of an element. 
+      Its default value is medium and can be applied to every element.</h1>
+      <br>
+    <h1>The font-family CSS property specifies a prioritized list of one or more font family <br> names and/or generic family names for the selected element.</h1>
+    <h1>EXAMPLE:</h1>
+    <img src="image/ict_integ_example.png" alt="">
+    <h1>DEMONSTRATION:</h1>
+      <div>
+      <h1>Try to type any</h1>
+    <p id="text"></p>
+    <input type="text" id="words">
+    <input type="button" id="labas" onclick="myclasa()" value="free">
+    <br>
+    <h1>p{</h1>
+    <h1>Try to enter a number or size</h1>
+    <br>
+<label for="text">Font-size:</label><input type="text" placeholder="enter the size" id="input" style="width: 30px;"><label for="text">px;</label>
+<input type="button" name="" onclick="changeTextSize()" id="btn2" value="change">
+<br>
+      <h1>Try to enter a number or the size</h1>
+<br>
+<label for="text">margin-left:</label><input type="text" placeholder="enter the marginLeft" id="input1" style="width: 30px;"><label for="text">px;</label>
+<input type="button" name="" onclick="changeTheMargin()" id="btn3" value="marginLeft">
+<br>
+      <h1>Try to enter a color or color codes</h1>
+<br>
+<label for="text">Color:</label><input type="text" placeholder="enter the color" id="input2" style="width: 30px;"><label for="text">;</label>
+<input type="button" name="" onclick="changeTheColor()" id="btn4" value="color">
+<br>
+      <h1>Try to enter a font</h1>
+<br>
+<label for="text">Font-family:</label><input type="text" placeholder="enter the font" id="input3"><label for="text">;</label>
+<input type="button" name="" onclick="changeTheFont()" id="btn5" value="font">
+      <h1>}</h1>
+    -->
+      <h1>TANONG KO</h1>
+      <label for="question">CRUSH KA BA NIYA?</label>
+      <input type="text" placeholder="oo o hindi" id="inputs">
+      <input type="button" onclick="myanswer()"value="enter" id="enter">
+      <p id="sagot"></p>
+      </div>
+<!-- <button onclick='document.getElementById("sagot").innerHTML="HAHAHA WAG KANA UMASA!"'>OO</button>
+      <input type="button" name="" onclick='document.getElementById("sagot").innerHTML="OO HINDI KA CRUSH NYAN HAHAHA!!"' id="enter2" value="HINDI">-->
+
+    <script type="text/javascript">
+
+        function sizes(){
+          var x=parseInt(document.getElementById('size').value);
+
+        if (x>100){
+          document.getElementById('para').style.fontSize='100px';
+        }
+
+        else{
+          document.getElementById('para').style.fontSize='10px';
+        }
+      }
+
+      function changeTextSize() {
+  var input = document.getElementById('input').value;
+  
+  document.getElementById('text').style.fontSize = input + "px";
+      }
+
+  function changeTheMargin() {
+    var input1 = document.getElementById('input1').value;
+  document.getElementById('text').style.marginLeft = input1 + "px";
+  }
+
+  function changeTheColor() {
+    var input2 = document.getElementById('input2').value;
+  document.getElementById('text').style.color = input2;
+  }
+
+  function changeTheFont() {
+    var input3 = document.getElementById('input3').value;
+  document.getElementById('text').style.fontFamily = input3;
+  }
+
+  function myclasa(){
+    var lagayan=document.getElementById('words').value;
+
+    document.getElementById('text').innerHTML=lagayan;
+    document.getElementById('text').style.marginLeft='400px';
+  }
+
+  function myanswer(){
+    var a=document.getElementById('inputs').value;
+
+    if(a=="oo"){
+    document.getElementById('sagot').innerHTML="HAHAHA WAG KANA UMASA!";
+    }
+
+    else if(a=="hindi"){
+      document.getElementById('sagot').innerHTML="TAMA YAN HAHAHA!!";
+    }
+    
+    else{
+      document.getElementById('sagot').innerHTML="HINDI KA CRUSH NUN HAHAHA!!";
+    }
+
+   
+  }
+    </script>
+
+</body>
+</html>

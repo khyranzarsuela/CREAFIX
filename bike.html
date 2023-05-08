@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+    <head>
+        <title>Fixed</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="aaron.css">
+        <style>
+            .material-symbols-outlined {
+              font-variation-settings:
+              'FILL' 0,
+              'wght' 400,
+              'GRAD' 0,
+              'opsz' 48
+            }
+
+            </style>
+    </head>
+    <body id="clasa">
+
+        <video class="video" autoplay muted loop id="myVideo">
+            <source src="image/kiminonawa.mp4" type="video/mp4">
+          </video>
+    
+        <div id="no">
+        <label class="we"for="txt">FIRST NAME</label><br>
+        <input  class="wag" type="text" id="txt" placeholder="Input your first name here"><br><br>
+        <label class="we" for="txt">MIDDLE NAME</label><br>
+        <input class="wagred" type="text" id="txt2" placeholder="Input your middle name here"><br><br>
+        <label class="we" for="txt">LAST NAME</label><br>
+        <input class="waggreen" type="text" id="txt3" placeholder="Input your last name here"><br><br>
+
+
+    <input type="button" id="btn" value="submit"><br><br>
+
+    <table>
+        <tr>
+            <td>
+            <label class="we" for="output">Firstname:</label>
+            </td>
+            <td>
+                <h5 style="margin: 0px 0px; color: red;" class="output" id="output"></h5>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label class="we" for="output">Middlename:</label>
+            </td>
+            <td>
+            <h5 style="margin: 0px 0px; color: red;" class="output" id="output2"></h5>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label class="we" for="output">Lastname:</label>
+            </td>
+            <td>
+            <h5 style="margin: 0px 0px; color: red;" class="output" id="output3"></h5>
+            </td>
+        </tr>
+    </table>
+<br>
+<button class="gabi" onclick="document.getElementById('clasa').style.backgroundColor='black'"><i class="material-symbols-outlined">
+    dark_mode</i></button>
+<button class="umaga" onclick="document.getElementById('clasa').style.backgroundColor='white'"><i class="material-symbols-outlined">
+    brightness_5</i></button>
+<button class="transform" onclick="document.getElementById('output').style.color='red'">RED</button>
+<button class="kimi" onclick="mybuton()"><i class="material-symbols-outlined">add</i></button>
+    </div>
+    <script type="text/javascript">
+        var txt1=document.getElementById('txt');
+        var txt2=document.getElementById('txt2');
+        var txt3=document.getElementById('txt3');
+        var btn1=document.getElementById('btn');
+        var out1=document.getElementById('output');
+        var out2=document.getElementById('output2');
+        var out3=document.getElementById('output3');
+
+
+        function myfunction(){
+            out1.innerHTML=txt1.value;
+            out1.style.color='blue';
+            out2.innerHTML=txt2.value;
+            out2.style.color='red';
+            out3.innerHTML=txt3.value;
+            out3.style.color='green';
+            btn1.onclick=document.getElementById('myVideo').style.display='block';
+        }
+        btn1.addEventListener('click',myfunction);
+
+
+        function mybuton() {
+        document.getElementById('myVideo').style.display='none';
+       
+
+        }
+    </script>
+
+</body>
+</html>

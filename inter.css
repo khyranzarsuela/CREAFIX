@@ -1,0 +1,56 @@
+p
+{
+	font-family:arial;
+	font-weight:550;
+	font-size:21px;
+	
+}
+
+li
+{
+	list-sytle-type:none;
+	word-spacing:3px;
+	font-size:15px;
+	font-family:arial;
+	
+	padding:2px;
+	color:gray;
+	
+}
+
+
+div
+{
+	margin:80px 330px;
+}
+
+img
+{
+	height:70px;
+	width:65px;
+	margin:20px 20px;
+}
+
+h6
+{
+	margin:0px;
+	padding:0px;
+	font-family:arial;
+	font-weight:400;
+	color:gray;
+}
+
+h5
+{
+	margin:10px -30px;
+	padding:0px;
+	font-family:arial;
+	font-weight:400;
+	color:gray;
+	font-size:12px;
+}
+
+a
+{
+	text-decoration:none;
+}

@@ -1,0 +1,234 @@
+.sidebar{
+    height: 700px;
+    width: 200px;
+    background-color: rgb(56, 53, 53);
+}
+.menu{
+    position: absolute;
+    top: 120px;
+    left: -20px;
+    font-size: 25px;
+    font-family: 'Gruppo', cursive;;
+    color: white;
+}
+.header{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+body{
+    margin: 0px;
+    background-image: linear-gradient(black, rgb(77, 74, 74));
+}
+.mainback{
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    left: 40%;
+}
+.background{
+    position: absolute;
+    top: -35px;
+    left: -305px;
+    height: 305px;
+    width: 1063px;
+    opacity: 100%;
+}
+.list{
+    list-style-type: none;
+}
+.main{
+    position: absolute;
+    top: 30px;
+    left: 40%;
+}
+.title{
+    position: relative;
+    left: -100px;
+    font-size: 50px;
+    color: rgb(247, 247, 26);
+    font-family:'Gruppo', cursive;
+}
+.hay{
+    position: absolute;
+    left: 150px;
+    color: rgb(105, 195, 247);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Gruppo', cursive;;
+}
+
+.img1{
+    height: 150px;
+    width: auto;
+    border-style: outset;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 2px;
+    margin: 20px;
+
+}
+.img2{
+    height: 150px;
+    width: 200px;  
+    border-style: outset;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 2px;
+    margin: 20px;
+
+}
+.img3{
+    height: 150px;
+    width: auto;
+    border-style: outset;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 2px;
+    margin: 20px;
+}
+.contain{
+    font-size: 35px;
+    color: black;
+}
+.btn1{
+    font-family: 'Delicious Handrawn', cursive;
+    position: relative;
+    top: -5px;
+    left: 12px;
+    border-radius: 10px;
+    border-color: rgb(255, 233, 237);
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.btn2{
+    font-family: 'Delicious Handrawn', cursive;
+    position: relative;
+    top: -5px;
+    left: 20px;
+    border-radius: 10px;
+    border-color: rgb(255, 233, 237);
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.btn3{
+    font-family: 'Delicious Handrawn', cursive;
+    position: relative;
+    top: -5px;
+    left: 15px;
+    border-radius: 10px;
+    border-color: rgb(255, 233, 237);
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.laman{
+    height: 70%;
+    width: 84.1%;
+    background-color: white;
+    position: absolute;
+    left: 201px;
+    top: 300px;
+
+}
+input{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+table{
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.overlay1{
+    position: absolute;
+    top: 75px;
+    left: 167px;
+    height: 152px;
+    width: 230px;
+    background-color: gray;
+    border-radius: 20px;
+    opacity: 0%;
+    transition: 0.8s ease;
+}
+.overlay1:hover {
+    position: absolute;
+    top: 75px;
+    left: 167px;
+    height: 152px;
+    width: 230px;
+    background-color: gray;
+    border-radius: 20px;
+    opacity: 100%;
+    transition: 0.8s ease;
+}
+.price1{
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.overlay2{
+    position: absolute;
+    top: 75px;
+    left: 440px;
+    height: 152px;
+    width: 205px;
+    background-color: gray;
+    border-radius: 20px;
+    opacity: 0%;
+    transition: 0.8s ease;
+}
+.overlay2:hover {
+    position: absolute;
+    top: 75px;
+    left: 440px;
+    height: 152px;
+    width: 205px;
+    background-color: gray;
+    border-radius: 20px;
+    opacity: 100%;
+    transition: 0.8s ease;
+}
+.price2{
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.overlay3{
+    position: absolute;
+    top: 75px;
+    left: 689px;
+    height: 152px;
+    width: 205px;
+    background-color: gray;
+    border-radius: 20px;
+    opacity: 0%;
+    transition: 0.8s ease;
+}
+.overlay3:hover {
+    position: absolute;
+    top: 75px;
+    left: 689px;
+    height: 152px;
+    width: 205px;
+    background-color: gray;
+    border-radius: 20px;
+    opacity: 100%;
+    transition: 0.8s ease;
+}
+.price3{
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/**.home{
+    text-decoration: none;
+    color: white;
+    background-color: bisque;
+}
+**/

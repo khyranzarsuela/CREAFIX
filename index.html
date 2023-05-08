@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+	<head>
+		<title>(Home) Creafix.com</title>
+
+		<link rel="icon" href="image/CREAFIX.png">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" href="sample5.css" text="text/css" />
+		<script src="script.js" defer></script>
+		<style>
+			.click{
+					font-size:30px; 
+					color: blue;
+					transition: 1s ease;
+					cursor: pointer;
+					list-style-type:none;
+					font-family: 'Rajdhani', sans-serif;
+					display: inline;	
+			}
+			.dark-mode .click {
+				color: blue;
+				transition: 1s ease;
+				cursor: pointer;
+				}
+
+			
+			/* width */
+			::-webkit-scrollbar {
+ 			 width: 11px;
+			}
+
+			/* Track */
+			::-webkit-scrollbar-track {
+ 			box-shadow: inset 0 0 5px grey; 
+  			border-radius: 10px;
+			}
+ 
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+ 			 background: blue;
+  			border-radius: 10px;
+			}
+
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+ 			background: #151B54;
+			}
+
+			.material-symbols-outlined {
+			font-variation-settings:
+			'FILL' 0,
+			'wght' 400,
+			'GRAD' 0,
+			'opsz' 48
+			}
+			.material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+			}
+
+		</style>
+
+
+	</head>
+
+
+
+	<body>
+		  
+		<div class="taas">
+		
+		<!--<h1 class="nosense">CREAFIX</h1>-->
+		<h1 class="c">C</h1>
+		<h1 class="r">R</h1>
+		<h1 class="e">E</h1>
+		<h1 class="a">A</h1>
+		<h1 class="f">F</h1>
+		<h1 class="i">I</h1>
+		<h1 class="x">X</h1>
+		 
+		<button class="mainbtn" onclick="darkMode()"><span class="material-symbols-outlined">dark_mode</span></button>
+	<!---------SCRIPTS--------->
+	<script type="text/javascript">
+	  function darkMode(){
+	    const body = document.querySelector("body");
+	    body.classList.toggle("dark-mode");
+	  }
+	</script>
+		<ul class="nav">
+			<li class="click"><span class="material-symbols-outlined">home</span>HOME</li>
+			<li class="list"><a class="link" href="menu.html"><span class="material-symbols-outlined">
+				group</span>ABOUT</a></li>
+			<li class="list"><a class="link" href="table.html"><span class="material-symbols-outlined">
+				gallery_thumbnail</span>GALLERY</a></li>
+			<li class="list"><a class="link" href="personal.html"target="_self"><span class="material-symbols-outlined">
+				settings</span>SERVICE</a></li>
+		</ul>
+		<img class="image" src="image\CREAFIX.png">
+		
+		</div>
+			
+
+			<div class="main">
+				<!--testing -->
+					<div class="whatif">
+						<img class="imagetest" src="image/coding2_gif.gif" alt="" id="display1">
+					</div>
+
+					<div class="whatif">
+						<img class="imagetest" src="image/coding_gif.gif" alt="" id="display2">
+					</div>
+
+					<div class="whatif">
+						<img class="imagetest2" src="image/coding33.jpg" alt="" id="display3">
+					</div>
+
+					<div class="button">
+						<button class="change1" onclick="mytest()"><img class="imagebtn" src="image/coding_gif.gif" alt=""></button>
+						<button class="change2" onclick="mytest2()"><img class="imagebtn" src="image/coding2_gif.gif"></button>
+						<button class="change3" onclick="mytest3()"><img class="imagebtn" src="image/coding33.jpg"></button>
+					</div>
+				<!--testing -->
+			<h1 class="c">C</h1>
+			<h1 class="r">R</h1>
+			<h1 class="e">E</h1>
+			<h1 class="a">A</h1>
+			<h1 class="f">F</h1>
+			<h1 class="i">I</h1>
+			<h1 class="x">X</h1>
+			<p class="text">Welcome to our official website Creafix Company.</p>
+			<h1 class="nosense">For Creating</h1>
+         	<p class="text">What will you think of your website?</p>
+			<p class="text">What do you want to make a website for?</p>
+			<p class="text">What design do you want?</p>
+			<p class="text">What’s the budget?</p>
+			<h1 class="nosense">For Fixing</h1>
+			<p class="text">What do you want to fix on the website?</p>
+			<br />
+			<br />
+			<br />
+			<h1 class="nosense">We will create your websites:</h1>
+		</div>
+
+		<div class="bilog">
+			<ul class="cir">
+				<li class="ad">GOOD</li>
+				<li class="ad">AFFORDABLE</li>
+				<li class="ad">SAFE</li>
+			</ul>
+		</div>
+		<div class="getstarted">
+			<a class="link2" href="personal.html">Get Started</a>
+		</div>
+
+	</body>		
+
+	<script>
+		var back=document.getElementById('display1');
+		var back2=document.getElementById('display2');
+		var back3=document.getElementById('display3');
+		function mytest(){
+			back.style.display='none';
+			back2.style.display='block';
+			back2.style.animation='trans 1s';
+			back3.style.display='none';
+		}
+		function mytest2(){
+		back2.style.display='none';
+		back.style.display='block';
+		back3.style.display='none';
+		back.style.animation='trans 1s';
+		}
+		function mytest3(){
+		back2.style.display='none';
+		back.style.display='none';
+		back3.style.display='block';
+		back3.style.animation='trans 1s';
+		}
+	</script>
+
+</html>

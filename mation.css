@@ -1,0 +1,95 @@
+.clasa{
+    height: 140px;
+    width: 140px;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.clasa:hover {
+    height: 190px;
+    width: 190px;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+body{
+    margin: 0px;
+    background-image: url(image/333988672_704228471499819_4126073582739098742_n.jpg);
+}
+.top{
+    height: 60px;
+    width: 100%;
+    background-color: #e863e8;
+    position: absolute;
+    top: 0px;
+
+}
+.header{
+    position: absolute;
+    top: -10px;
+    left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu{
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    font-size: 20px;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    word-spacing: 10px;
+}
+.list{
+    display: inline;
+    list-style-type: none;
+}
+.title{
+    position: absolute;
+    top: 100px;
+}
+.center{
+    position: absolute;
+    top: 220px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.center2{
+    position: absolute;
+    top: 410px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.pic{
+    height: 200px;
+    width: 200px;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.pic:hover {
+    height: 250px;
+    width: 250px;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.desc{
+   font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+   color: white;
+}
+.para{
+    color: white;
+}
+.intro{
+    color: rgb(17, 197, 149);
+    font-family: Comic Sans MS;
+    margin-left: 270px;
+}
+.presyo{
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+}
+.but{
+    height: 30px;
+    width: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: coral;
+}
+.con{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
